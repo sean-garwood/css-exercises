@@ -1,4 +1,19 @@
 p {
-    background-color: hsl(15, 82%, 56%);
+    background-color: hsl(15, 44%, 66%);
     font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.number2 {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.number3p {
+    font-size: 36px;
+}
+
+.number4 {
+    background-color: rgb(12, 210, 12);
+    font-size: 24px;
+    font-weight: bold;
 }
