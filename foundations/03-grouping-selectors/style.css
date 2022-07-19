@@ -1,0 +1,14 @@
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.left {
+    background-color: black;
+    color: #fff;
+}
+
+.right {
+    background-color: yellow;
+    color: #000;
+}
