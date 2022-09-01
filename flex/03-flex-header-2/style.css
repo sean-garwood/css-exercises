@@ -14,7 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  align-items: center;
   padding: 8px;
 }
 
@@ -39,6 +39,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 8px;
 }
 
 a {
@@ -50,4 +51,10 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+}
+
+.right-menu {
+  display:flex;
+  padding: 8px;
+  margin-left: auto; /*push to the right*/
 }
