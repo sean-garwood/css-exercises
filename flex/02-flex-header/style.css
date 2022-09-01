@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1em;
 }
 
 .logo {
@@ -28,4 +29,8 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
   margin
+}
+
+li {
+  margin: 5px;
 }
