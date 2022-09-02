@@ -19,7 +19,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 52px;
-  margin: 16px 52px;
+  margin: 32px 52px;
 }
 
 .info {
