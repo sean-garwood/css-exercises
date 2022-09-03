@@ -39,6 +39,11 @@ body {
 
 .submodal {
   flex-direction: row;
+  margin: 16px;
+}
+
+.title-row {
+  font-weight: bold;
 }
 
 .close-button {
