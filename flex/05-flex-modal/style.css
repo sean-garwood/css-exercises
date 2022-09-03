@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,10 +20,6 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-}
-
-.submodal {
-  flex-direction: column;
 }
 
 .icon {
@@ -39,6 +34,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin: 16px;
+}
+
+.submodal {
+  flex-direction: row;
 }
 
 .close-button {
