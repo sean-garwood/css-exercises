@@ -20,6 +20,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  padding: 12px;
 }
 
 .icon {
@@ -34,17 +35,19 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  margin: 8px;
+  margin-right: 12px;
 }
 
-.submodal {
+/*.submodal {
   margin: 16px;
 }
+debugging... */
 
 .title-row {
   font-weight: bold;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .close-button {
