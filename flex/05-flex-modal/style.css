@@ -34,16 +34,17 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  margin: 16px;
+  margin: 8px;
 }
 
 .submodal {
-  flex-direction: row;
   margin: 16px;
 }
 
 .title-row {
   font-weight: bold;
+  display: flex;
+  justify-content: space-around;
 }
 
 .close-button {
