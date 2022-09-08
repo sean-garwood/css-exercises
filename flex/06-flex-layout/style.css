@@ -28,10 +28,34 @@ input {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: gray;
   font-weight: bold;
+}
+
+.header, .left-links, .right-links {
+  display: flex;
+}
+
+.container, .input, .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  display: flex;
+}
+
+.right-links {
+  margin-left: auto;
 }
