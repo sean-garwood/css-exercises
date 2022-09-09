@@ -45,21 +45,8 @@ a {
   display: flex;
 }
 
-.container, .input, .buttons {
+.input, .buttons, .footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
-
-.buttons {
-  display: flex;
-  flex-direction: row;
-}
-.footer {
-  display: flex;
-}
-
-.right-links {
-  margin-left: auto;
 }
